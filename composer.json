@@ -1,0 +1,26 @@
+{
+    "name": "breeze/http",
+    "type": "library",
+    "description": "Breeze Http component",
+    "keywords": ["breeze component"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arturs Krancs",
+            "email": "arturkranc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {"Breeze\\Component\\Http\\": ""}
+    },
+    "target-dir": "Breeze/Component/Http",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
